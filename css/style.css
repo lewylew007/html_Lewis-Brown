@@ -1,0 +1,95 @@
+/* Notes
+Colour Name  Hex      RGB
+Orange       #FF5733  rgb(255, 87, 51)
+Yellow       #FFC300  rgb(255, 195, 0)
+Pea Green    #DAF7A6  rgb(218, 247, 166)
+Black        #200b06  rgb(32, 11, 6)
+light blue   #33dbff  rgb(51, 219, 255)
+Dark Red     #C70039  rgb(199, 0, 57)
+
+*/
+
+header{
+    background-color: #C70039;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #200b06;
+}
+
+body{
+    background-color: #FFC300;
+}
+
+.home_nav{
+    padding-right: 20px;
+    padding-left: 100px;
+}
+
+.about_me_nav{
+    padding-right: 20px;
+}
+
+.shop4bookz_nav{
+    padding-left: 493px;
+}
+
+.body_input{
+    border-color: rgb(51 65 85);
+}
+
+.topBtn{
+    color: #FF5733;
+    width: 300px;
+    height: 200px;
+
+}
+
+.beeBtn{
+    color: #FF5733;
+    width: 300px;
+    height: 200px;
+}
+
+
+.sparBtn{
+    color: #FF5733;
+    width: 300px;
+    height: 200px;
+}
+
+
+.pluBtn{
+    color: #FF5733;
+    width: 300px;
+    height: 200px;
+}
+
+
+.buzbtn{
+    color: #FF5733;
+    width: 300px;
+    height: 200px;
+}
+
+
+.craBtn{
+    color: #FF5733;
+    width: 300px;
+    height: 200px;
+}
+
+.btnSet1{
+    margin: 3px;
+    padding-left: 300px;
+}
+
+.btnSet2{
+    margin: 3px;
+    padding-left: 300px;
+}
+
+.btnSet3{
+    margin: 3px;
+    padding-left: 300px;
+}

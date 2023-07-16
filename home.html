@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="C:\git-rep\book store website\css\style.css">
+    <link rel="stylesheet" href="css/style.css">-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style type="text/tailwindcss"> .body_input{
+        @apply border border-slate-700 focus:ring focus:ring-[#33dbff] focus:outline-none;
+    } 
+    </style>
+    <title>Book Shop</title>
+</head>
+<body class="bg-[#FFC300]">
+    <header class="bg-[#C70039] p-3 font-bold"> <!--Dark Red  Hex #C70039  rgb(199, 0, 57)-->
+        <div class="navbar text-[#200b06] font-bold text-3xl flex-auto"> <!--Black  Hex #200b06  rgb(32, 11, 6)-->
+            <label for="home_nav" class="home_nav pr-5">Home</label>
+            <label for="about_me_nav" class="about_me_nav pr-5 pl-[100px]" >About Me</label>
+            <label for="shop4bookz_nav" class="shop4bookz_nav pl-[493px]">Shop4Bookz</label>
+            <input type="search"/>
+        </div>
+    </header>
+    <div class="main">
+
+    
+        <div class="lftSpacing  w-[18%] h-screen bg-[#200b06] relative float-left">
+    
+        </div>
+        <div class="lftSpacing  w-[18%] h-screen bg-[#200b06] relative float-right">
+
+        </div>
+
+        <div class="catagory place-items-center flex-auto">
+            <div class="btnSet1 my-[3px] pl-[300px]">
+                <button class="topBtn w-[300px] h-[200px] bg-[#FF5733] text-5xl font-black">
+                    Topper
+                </button>
+
+                <button class="beeBtn w-[300px] h-[200px] bg-[#FF5733] text-5xl font-black">
+                    Beezer
+                </button>
+            </div>
+            <div class="btnSet2 my-[3px] pl-[300px]">
+                <button class="sparBtn w-[300px] h-[200px] bg-[#FF5733] text-5xl font-black">
+                    Sparky
+                </button>
+
+                <button class="pluBtn w-[300px] h-[200px] bg-[#FF5733] text-5xl font-black ">
+                    Plug
+                </button>
+            </div>
+            <div class="btnSet3 my-[3px] pl-[300px]">
+                <button class="buzbtn w-[300px] h-[200px] bg-[#FF5733] text-5xl font-black">
+                    Buzz
+                </button>
+
+                <button class="craBtn w-[300px] h-[200px] bg-[#FF5733] text-5xl font-black">
+                    Cracker
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <form action="google.com" method="post">
+                <input type="email" class="body_input "/>
+
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
