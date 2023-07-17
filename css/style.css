@@ -8,6 +8,10 @@ light blue   #33dbff  rgb(51, 219, 255)
 Dark Red     #C70039  rgb(199, 0, 57)
 
 */
+
+
+
+
 a{
     color: unset;
     text-decoration: unset;
@@ -24,6 +28,11 @@ header{
 body{
     background-color: #FFC300;
     margin: 0px;
+}
+
+.footer{
+    float: inline-end;
+
 }
 
 .navbar{
@@ -55,49 +64,83 @@ body{
 }
 
 .shop4bookz_nav_search{
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 40px;
+    
+}
+
+.catagory{
+    place-items: center;
+    flex: 1 1 auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 300px;
+
 }
 
 .topBtn{
-    color: #FF5733;
     width: 300px;
     height: 200px;
+    background-color: #FF5733;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+
 
 }
 
 .beeBtn{
-    color: #FF5733;
     width: 300px;
     height: 200px;
+    background-color: #FF5733;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+
 }
 
 
 .sparBtn{
-    color: #FF5733;
     width: 300px;
     height: 200px;
+    background-color: #FF5733;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+
 }
 
 
 .pluBtn{
-    color: #FF5733;
     width: 300px;
     height: 200px;
+    background-color: #FF5733;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+
 }
 
 
 .buzbtn{
-    color: #FF5733;
     width: 300px;
     height: 200px;
+    background-color: #FF5733;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+
 }
 
 
 .craBtn{
-    color: #FF5733;
     width: 300px;
     height: 200px;
+    background-color: #FF5733;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+
 }
 
 .btnSet1{
@@ -113,4 +156,35 @@ body{
 .btnSet3{
     margin: 3px;
     padding-left: 300px;
+}
+
+.lftSpacing{
+    width: 18%;
+    height: 200vh;
+    background-color: #200b06;
+    position: relative;
+    float: left;
+
+}
+
+.rightSpacing{
+    width: 18%;
+    height: 200vh;
+    background-color: #200b06;
+    position: relative;
+    float: right;
+
+}
+
+.cv{
+    width: 64%;
+    float: left;
+
+
+}
+
+@media screen and (min-width: 768px){
+    .shop4bookz_nav{
+        padding-left: 980px;
+    }
 }
