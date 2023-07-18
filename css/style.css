@@ -57,6 +57,7 @@ body{
 
 .shop4bookz_nav{
     padding-left: 493px;
+
 }
 
 .body_input{
@@ -65,7 +66,10 @@ body{
 
 .shop4bookz_nav_search{
     width: 400px;
-    height: 40px;
+    height: 30px;
+    float: right;
+    padding-top: 30px;
+
     
 }
 
